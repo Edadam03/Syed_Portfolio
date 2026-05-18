@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Adam | Software Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Syed Adam.</div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-item active" data-target="home">Home</a></li>
+                    <li><a href="#about" class="nav-item" data-target="about">About</a></li>
+                    <li><a href="#skills" class="nav-item" data-target="skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-item" data-target="projects">Projects</a></li>
+                    <li><a href="#experience" class="nav-item" data-target="experience">Experience</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <!-- HOME SECTION -->
+        <section id="home" class="section hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm Syed Adam</h1>
+                    <h2 class="hero-subtitle">B.Sc. Computer Science (Big Data) Student & Aspiring Full-Stack Developer
+                    </h2>
+                    <p class="hero-description">
+                        Combining data analytics, software engineering, and problem-solving to build impactful digital
+                        solutions. Seeking a versatile internship placement.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                    <div class="hero-contact-info">
+                        <span><i class="fa-solid fa-location-dot"></i> Kuala Lumpur, Malaysia</span>
+                        <span><i class="fa-solid fa-envelope"></i> syedadam10@gmail.com</span>
+                        <span><i class="fa-brands fa-linkedin"></i> linkedin.com/in/syedadam</span>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-glow"></div>
+                    <img src="Syed Picture.png" alt="Syed Adam" class="hero-profile-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Syed+Adam&background=0f172a&color=00e5ff&size=300'">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="card about-card">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a highly motivated Computer Science student specializing in Big Data, currently seeking
+                            a versatile internship placement (minimum 3 months) starting March 30, 2026.</p>
+                        <p>I am equipped with a strong foundation in full-stack development, data analytics, software
+                            testing, and cybersecurity principles. My goal is to apply programming, analytical, and
+                            problem-solving skills to translate complex data into actionable insights, secure digital
+                            environments, and ensure high software quality.</p>
+                        <p>I possess strong bilingual communication skills (Malay & English) to collaborate effectively
+                            within a team and tackle organizational challenges.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>Degree</h3>
+                            <p>B.Sc. Computer Science (Big Data)</p>
+                            <span>UiTM Chendering (CGPA: 3.43)</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Diploma</h3>
+                            <p>Diploma of Computer Science</p>
+                            <span>UiTM Jasin (CGPA: 3.30)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="card skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Programming & Web</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">Java</span>
+                        <span class="tag">C++</span><span class="tag">C#</span><span class="tag">PHP</span>
+                        <span class="tag">SQL</span><span class="tag">React</span><span class="tag">Laravel</span>
+                        <span class="tag">Flask</span><span class="tag">HTML/CSS</span><span
+                            class="tag">TailwindCSS</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h3>Data Analytics & ML</h3>
+                    <div class="tags">
+                        <span class="tag">Power BI</span><span class="tag">Scikit-learn</span>
+                        <span class="tag">Pandas</span><span class="tag">Weka</span>
+                        <span class="tag">Data Cleaning</span><span class="tag">Excel</span>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-shield-check"></i></div>
+                    <h3>IT & Quality Assurance</h3>
+                    <div class="tags">
+                        <span class="tag">System Debugging</span><span class="tag">Manual Testing</span>
+                        <span class="tag">Cybersecurity Basics</span><span class="tag">Cloud Computing</span>
+                        <span class="tag">Technical Documentation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <div class="project-header">
+                        <h3>Staff Recommendation System</h3>
+                        <span class="project-role">Final Year Project</span>
+                    </div>
+                    <p class="project-desc">An intelligent recommendation system designed to automate staff-to-committee
+                        assignments based on expertise, experience, and role relevance.</p>
+                    <ul class="project-features">
+                        <li>Implemented a content-based filtering algorithm using Python and TF-IDF vectorization.</li>
+                        <li>Built a React web interface for displaying recommendations and manual adjustments.</li>
+                        <li>Improved task allocation efficiency through data-driven decision-making.</li>
+                    </ul>
+                    <div class="tags mt-auto">
+                        <span class="tag outline">Python</span><span class="tag outline">React</span><span
+                            class="tag outline">TF-IDF</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <h3>Property Prices Classification</h3>
+                        <span class="project-role">Data Analysis</span>
+                    </div>
+                    <p class="project-desc">Machine learning classification of Malaysian property prices based on
+                        property type to understand market trends.</p>
+                    <ul class="project-features">
+                        <li>Utilized Decision Trees algorithm in Weka to classify property datasets.</li>
+                        <li>Cleaned and preprocessed raw housing data from CSV/Excel sources.</li>
+                        <li>Evaluated model accuracy and optimized hyperparameters.</li>
+                    </ul>
+                    <div class="tags mt-auto">
+                        <span class="tag outline">Weka</span><span class="tag outline">Decision Trees</span><span
+                            class="tag outline">Data Processing</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <h3>Educational Attainment Analysis</h3>
+                        <span class="project-role">Data Visualization</span>
+                    </div>
+                    <p class="project-desc">Analysis of educational attainment in Malaysia, focusing on trends,
+                        relationships, and disparities in school completion (2016-2022).</p>
+                    <ul class="project-features">
+                        <li>Utilized Power BI to analyze 1,071 records from the Department of Statistics.</li>
+                        <li>Designed dynamic charts to visualize gender relationships and state-level disparities.</li>
+                        <li>Tracked the impact of the COVID-19 pandemic on upper secondary completion.</li>
+                    </ul>
+                    <div class="tags mt-auto">
+                        <span class="tag outline">Power BI</span><span class="tag outline">Data Analysis</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <h3>Laptop Recommendation System</h3>
+                        <span class="project-role">Machine Learning</span>
+                    </div>
+                    <p class="project-desc">A RAM-based laptop recommendation system designed to assist users in making
+                        data-driven purchase decisions.</p>
+                    <ul class="project-features">
+                        <li>Developed a machine learning model using the K-Nearest Neighbors (KNN) algorithm.</li>
+                        <li>Built an interactive user interface using HTML, CSS, and Flask.</li>
+                        <li>Used Scikit-learn for model training, testing, and predictions.</li>
+                    </ul>
+                    <div class="tags mt-auto">
+                        <span class="tag outline">KNN Algorithm</span><span class="tag outline">Flask</span><span
+                            class="tag outline">Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience & Education</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="card timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full-Stack Developer Intern</h3>
+                            <span class="timeline-date">Internship</span>
+                        </div>
+                        <p class="timeline-organization">Management & Science University (MSU) - Software Engineering
+                            Department</p>
+                        <ul class="project-features">
+                            <li>Assisted in front-end and back-end development using modern web technologies.</li>
+                            <li>Conducted comprehensive system debugging, manual software testing, and technical
+                                documentation to ensure system quality.</li>
+                            <li>Collaborated with academic staff to enhance departmental web tools.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="card timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Computer Science (Hons.) in Big Data</h3>
+                            <span class="timeline-date">2023 - Present</span>
+                        </div>
+                        <p class="timeline-organization">Universiti Teknologi MARA (UiTM), Chendering</p>
+                        <p>Current CGPA: 3.43</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="card timeline-content">
+                        <div class="timeline-header">
+                            <h3>Diploma of Computer Science</h3>
+                            <span class="timeline-date">2021 - 2023</span>
+                        </div>
+                        <p class="timeline-organization">Universiti Teknologi MARA (UiTM), Jasin</p>
+                        <p>Current CGPA: 3.3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements-container mt-4">
+                <h3 class="subsection-title">Certifications & Achievements</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <i class="fa-solid fa-certificate text-primary"></i>
+                        <span>Rakyat Digital Certifications: Cybersecurity, Cloud, Blockchain, Generative AI, AI Safety,
+                            AI Fluency (2025)</span>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fa-solid fa-trophy text-primary"></i>
+                        <span>Participant in Product Idea Innovation (PRIDE) 11th Edition Showcase (2025)</span>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fa-solid fa-users text-primary"></i>
+                        <span>Human Resource Manager, Sekretariat (Assoc of Computer Science), UiTM (2022)</span>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fa-solid fa-chalkboard-user text-primary"></i>
+                        <span>Participant in Service Learning Malaysia University for Society (SULAM) (2025)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="contact-box card">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>I am actively seeking a 3-month internship placement starting March 30, 2026. Please feel free to
+                        reach out to discuss how I can contribute to your team.</p>
+
+                    <div class="contact-methods">
+                        <a href="mailto:syedadam10@gmail.com" class="contact-method">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>syedadam10@gmail.com</span>
+                        </a>
+                        <div class="contact-method">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>013-9095676</span>
+                        </div>
+                        <a href="https://linkedin.com/in/syedadam" class="contact-method">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="reference-info">
+                    <h3>Academic Reference</h3>
+                    <div class="ref-card">
+                        <p class="ref-name">Nik Marsyahariam Binti Nik Daud</p>
+                        <p class="ref-title">Industrial Training Coordinator</p>
+                        <p class="ref-org">Faculty of Computer and Mathematical Science, UiTM Chendering</p>
+                        <div class="ref-contact">
+                            <span><i class="fa-solid fa-phone"></i> 013-9226934</span>
+                            <span><i class="fa-solid fa-envelope"></i> nikmar14@uitm.edu.my</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Syed Adam bin Tuan Syed Razman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
