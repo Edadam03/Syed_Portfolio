@@ -12,6 +12,8 @@ permissions:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages  # 👈 This line fixes the missing environment error
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
